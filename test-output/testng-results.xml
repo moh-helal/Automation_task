@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-13T23:22:46 EET" name="e-commerce" finished-at="2022-02-13T23:24:42 EET" duration-ms="116121">
+    <groups>
+    </groups>
+    <test started-at="2022-02-13T23:22:46 EET" name="Testing1" finished-at="2022-02-13T23:24:42 EET" duration-ms="116121">
+      <class name="webpagestest.CheckoutProceduretest">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:webpagestest.CheckoutProceduretest@771a660]" started-at="2022-02-13T23:22:30 EET" name="startdriver" finished-at="2022-02-13T23:22:46 EET" duration-ms="15902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method signature="checkouttest(java.lang.String,java.lang.String)[pri:0, instance:webpagestest.CheckoutProceduretest@771a660]" started-at="2022-02-13T23:22:47 EET" name="checkouttest" data-provider="exceldata" finished-at="2022-02-13T23:23:51 EET" duration-ms="63717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[e5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987654.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkouttest -->
+        <test-method signature="SubtractQuantitytest()[pri:0, instance:webpagestest.CheckoutProceduretest@771a660]" started-at="2022-02-13T23:23:51 EET" name="SubtractQuantitytest" finished-at="2022-02-13T23:24:32 EET" depends-on-methods="webpagestest.CheckoutProceduretest.checkouttest" duration-ms="40978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubtractQuantitytest -->
+        <test-method signature="orderhistorytest()[pri:0, instance:webpagestest.CheckoutProceduretest@771a660]" started-at="2022-02-13T23:24:32 EET" name="orderhistorytest" finished-at="2022-02-13T23:24:42 EET" depends-on-methods="webpagestest.CheckoutProceduretest.SubtractQuantitytest" duration-ms="10241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistorytest -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:webpagestest.CheckoutProceduretest@771a660]" started-at="2022-02-13T23:24:42 EET" name="stopdriver" finished-at="2022-02-13T23:24:48 EET" duration-ms="5234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- webpagestest.CheckoutProceduretest -->
+    </test> <!-- Testing1 -->
+  </suite> <!-- e-commerce -->
+</testng-results>

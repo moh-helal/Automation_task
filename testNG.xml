@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="e-commerce">
+  <parameter name="browser" value="chrome" ></parameter> <!-- change value either by chrome or firefox -->
+  <test name="Testing1">
+    <classes>
+      <class name="webpagestest.CheckoutProceduretest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+<!-- <class name="webpagestest.createnewaccounttest"/> -->
+<!-- <class name="webpagestest.AuthNewUserTest"/> -->
+<!-- <class name="webpagestest.ClothesSelectiontest"/> -->
+<!-- <class name="webpagestest.CheckoutProceduretest"/> -->
+
+
+
